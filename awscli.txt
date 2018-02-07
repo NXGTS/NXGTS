@@ -1,0 +1,50 @@
+aws s3 help
+cls
+aws s3 mb s3://test
+aws s3 mb s3://global-test
+doskey /history
+cls
+doskey /history > c:\users\Gangapuram\awscli.txt
+ls
+cls
+dir
+more s3.txt
+cls
+mkdir dups3
+dir du*
+mv s3.txt dups3
+move s3.txt dups3
+dir dup*
+cd dups3
+dir
+cd ..
+cls
+aws ec2 describe-instances
+cls
+comp dups3 Desktop
+cd Desktop
+dir sri*
+cd ..
+cmp Desktop Vagrant
+cmp Desktop srinivas.g.doc
+cmp Desktop Class1.ipynb
+cls
+comp Desktop Vagrant
+cls
+comp Desktop srinivas.G.doc
+cls
+defrag
+defrag /D
+defrag C: /U /V
+cls
+aws ec2 describe-security-groups
+aws s3 desribe-buckets
+aws s3 sync help
+aws s3 --dryrun
+aws s3 --dry-run
+cls
+aws s3 ls
+aws s3 help
+aws ec2 describe-AMIs
+aws s3 help
+aws s3 
